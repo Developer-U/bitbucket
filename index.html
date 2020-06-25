@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Перспективные захоронения">
+
+    <title>Перспективные захоронения</title>  
+    
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">        
+</head>
+
+<body>
+    <div class="popup__container js-popupContainer">
+        <div class="popup js-popup">
+            <h2 class="popup__heading">Удалить карточку</h2>
+
+            <p class="popup__text">Отправить карточку организации в архив?</p>
+
+            <div class="popup__buttons flex-center-between">
+                <button type = "submit" class="popup__left js-escapeButton">ОТМЕНА</button>
+
+                <button type = "submit" class="popup__right">УДАЛИТЬ</button>
+            </div>
+        </div>
+    </div>
+
+    <sidebar class="sidebar-mobile">
+        <h2 class="sidebar__heading">ЧЕСТНЫЙ АГЕНТ</h2>
+
+        <h3 class="sidebar__subheading">МЕНЕДЖЕР ПРОЦЕССА</h3>
+
+        <div class="sidebar__container">
+            <a href="" class="sidebar__link">Организации</a>
+        </div>            
+    </sidebar>
+
+    <main class="wrapper flex-start-between">
+        <div class="wrapper__items flex-center-column">
+            <nav class="wrapper__nav main-menu">                
+                <ul class="main-menu__list list-reset">
+                    <li class="main-menu__item"><a href = "#" class = "main-menu__link link1" aria-label = "home"></a></li>
+                    <li class="main-menu__item"><a href = "#" class = "main-menu__link link2" aria-label = "basket"></a></li>
+                    <li class="main-menu__item"><a href = "#" class = "main-menu__link link3" aria-label = "helmet"></a></li>
+                    <li class="main-menu__item"><a href = "#" class = "main-menu__link link4" aria-label = "roller"></a></li>
+                    <li class="main-menu__item"><a href = "#" class = "main-menu__link link5" aria-label = "keys"></a></li>
+                    <li class="main-menu__item"><a href = "#" class = "main-menu__link link6" aria-label = "documents"></a></li>
+                    <li class="main-menu__item"><button type = "submit" class = "main-menu__link link7" aria-label = "search"></button></li>
+                </ul>
+            </nav>
+
+            <div class="wrapper__links">
+                <ul class="wrapper__list list-reset">
+                    <li class="wrapper__item"><a href = "#" class = "wrapper__link link8" aria-label = "chat"></a></li>
+                    <li class="wrapper__item"><a href = "#" class = "wrapper__link link9" aria-label = "contactors"></a></li>
+                    <li class="wrapper__item"><a href = "#" class = "wrapper__link link10" aria-label = "exit"></a></li>
+                </ul>
+            </div>
+        </div>
+           
+        <sidebar class="sidebar">
+            <h2 class="sidebar__heading">ЧЕСТНЫЙ АГЕНТ</h2>
+
+            <h3 class="sidebar__subheading">МЕНЕДЖЕР ПРОЦЕССА</h3>
+
+            <div class="sidebar__container">
+                <a href="" class="sidebar__link">Организации</a>
+            </div>            
+        </sidebar>
+
+        <div class="main-container">
+            <header class="header flex-center-between">
+                <div class="header__left">
+                    <a href = "#" class = "header__arrow js-buttonChange" aria-label = "arrow-left"></a></li>
+
+                    <a href = "#" class = "js-buttonChange2">
+                        <p class="header__text js-text" title = "Можно кликнуть" data-click = "private">К СПИСКУ ЮРИДИЧЕСКИХ ЛИЦ<small class = "additional">(кликабельно)</small></p>
+                    </a>
+                </div>
+
+                <div class="header__right flex-center-between">
+                    <button type = "submit" class="header__button button1" aria-label = "link"></button>
+                    <button type = "submit" class="header__button button2" aria-label = "time"></button>
+                    <button type = "submit" class="header__button button3 js-popupOpen" aria-label = "delete"></button>
+                </div>                
+            </header>
+
+            <section class="description flex-center-column">
+                <div class="description__top js-page1">
+                    <div class="description__main">
+                        <h1 class="description__mainHeading">Перспективные захоронения</h1>
+    
+                        <button type = "submit" class="description__button" aria-label = "Edit"></button>
+                    </div>                
+    
+                    <article class="description__article">
+                        <h2 class="description__heading">ОБЩАЯ ИНФОРМАЦИЯ</h2>
+    
+                        <button type = "submit" class="description__button" aria-label = "Edit"></button>
+    
+                        <table class="description__data">
+                            <tr class="description__list">
+                                <td class="description__left">Полное название:</td>
+                                <td class="description__right">ООО Фирма “Перспективные захоронения”</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Договор:</td>
+                                <td class="description__right">12345 от 12.03.2015, расторгнут 20.05.2017</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Форма:</td>
+                                <td class="description__right">ООО</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Тип:</td>
+                                <td class="description__right">Агент, Подрядчик</td>                          
+                            </tr>
+                        </table>
+                    </article>
+    
+                    <article class="description__article">
+                        <h2 class="description__heading">КОНТАКТНЫЕ ДАННЫЕ</h2>
+    
+                        <button type = "submit" class="description__button" aria-label = "Edit"></button>
+    
+                        <table class="description__data">
+                            <tr class="description__list">
+                                <td class="description__left">ФИО:</td>
+                                <td class="description__right">Григорьев Сергей Петрович</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Телефон:</td>
+                                <td class="description__right"><a class = "description__phone" href="tel:+79162165588">+7 (916) 216-55-88</a></td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Эл. почта:</td>
+                                <td class="description__right"><a class = "description__mail" href="grigoriev@funeral.com">grigoriev@funeral.com</a></td>                          
+                            </tr>
+                        </table>
+                    </article>
+    
+                    <article class="description__article">
+                        <h2 class="description__heading">АДРЕСА И ТЕЛЕФОНЫ</h2>
+    
+                        <button type = "submit" class="description__button" aria-label = "Edit"></button>
+    
+                        <table class="description__data">
+                            <tr class="description__list">
+                                <td class="description__left">Юр. адрес:</td>
+                                <td class="description__right">105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Юр. телефон:</td>
+                                <td class="description__right"><a class = "description__phone" href="tel:+74953455588">+7 (495) 345-55-88</a></td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Фактич. адрес:</td>
+                                <td class="description__right">105173, г. Балашиха, ул. Молодежная, д. 12А корп. 2, офис 312</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Телефон:</td>
+                                <td class="description__right"><a class = "description__phone" href="tel:+79162165588">+7 (916) 216-55-88</a></td>                          
+                            </tr>
+                        </table>
+                    </article>
+    
+                    <article class="description__article">
+                        <h2 class="description__heading">РЕКВИЗИТЫ ОРГАНИЗАЦИИ</h2>
+    
+                        <button type = "submit" class="description__button" aria-label = "Edit"></button>
+    
+                        <table class="description__data">
+                            <tr class="description__list">
+                                <td class="description__left">БИК:</td>
+                                <td class="description__right">044525225</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Банк:</td>
+                                <td class="description__right">ПАО СБЕРБАНК</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Р/С:</td>
+                                <td class="description__right">4070 2810 0000 9000 1425</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">К/С:</td>
+                                <td class="description__right">3010 1810 5403 0000 0795 БИК 044 030 795</td>                          
+                            </tr>                        
+    
+                            <tr class="description__list">
+                                <td class="description__left">ИНН:</td>
+                                <td class="description__right">1001254535</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">КПП:</td>
+                                <td class="description__right">773101001</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">ОГРН:</td>
+                                <td class="description__right">1053600591197</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Ген. директор:</td>
+                                <td class="description__right">Степаненко Игорь Яковлевич</td>                          
+                            </tr>
+                        </table>
+                    </article>
+    
+                    <article class="description__article">                    
+                        <h2 class="description__heading">ПРИЛОЖЕННЫЕ ФАЙЛЫ</h2>
+    
+                        <p class = "description__full js-fileText">Пока файлы не добавлены, добавьте, пожалуйста</p>
+    
+                        <div class="js-file">
+                            
+                        </div>
+    
+                        <label for="file" class = "description__label"><p class="description__text">ДОБАВИТЬ ФАЙЛ</p></label>
+                        <input type="file" name="file" id="file" class="inputfile">                    
+                    </article>
+                </div>
+                
+                <div class="description__top2 js-page2">
+                    <div class="description__main">
+                        <h1 class="description__mainHeading">Заголовок другой страницы</h1>
+    
+                        <button type = "submit" class="description__button" aria-label = "Edit"></button>
+                    </div>                
+    
+                    <article class="description__article">
+                        <h2 class="description__heading">ОБЩАЯ ИНФОРМАЦИЯ</h2>
+    
+                        <button type = "submit" class="description__button" aria-label = "Edit"></button>
+    
+                        <table class="description__data">
+                            <tr class="description__list">
+                                <td class="description__left">Полное название:</td>
+                                <td class="description__right">ООО Фирма “Перспективные захоронения”</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Договор:</td>
+                                <td class="description__right">12345 от 12.03.2015, расторгнут 20.05.2017</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Форма:</td>
+                                <td class="description__right">ООО</td>                          
+                            </tr>
+    
+                            <tr class="description__list">
+                                <td class="description__left">Тип:</td>
+                                <td class="description__right">Агент, Подрядчик</td>                          
+                            </tr>
+                        </table>
+                    </article>
+                </div>
+
+                <footer class="footer">
+                    <p class="footer__copyright">© 1992 - 2020 Честный Агент © Все права защищены.</p>
+
+                    <a class = "footer__copyright" href="tel:+74951502112">+7 (495) 150-21-12</a>
+                </footer>
+            </section>
+        </div>        
+    </main>    
+    
+    <script src="js/jquery-1.11.3.min.js"></script>    
+    <script src="js/main.js"></script>    
+</body>
+
+</html>
